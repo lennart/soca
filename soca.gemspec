@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Aaron Quint"]
-  s.date = %q{2011-03-21}
+  s.date = %q{2011-07-07}
   s.default_executable = %q{soca}
   s.description = %q{soca is a different way of writing apps for CouchDB. The structure is up to you.}
   s.email = %q{aaron@quirkey.com}
@@ -76,7 +76,7 @@ Gem::Specification.new do |s|
   ]
   s.homepage = %q{http://github.com/quirkey/soca}
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.3.7}
+  s.rubygems_version = %q{1.4.2}
   s.summary = %q{Sammy on CouchApp}
   s.test_files = [
     "test/helper.rb",
@@ -88,7 +88,6 @@ Gem::Specification.new do |s|
   ]
 
   if s.respond_to? :specification_version then
-    current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
@@ -121,7 +120,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<thor>, ["~> 0.14.0"])
       s.add_dependency(%q<jim>, ["~> 0.3.1"])
       s.add_dependency(%q<compass>, ["~> 0.10.5"])
-      s.add_dependency(%q<mustache>, ["~> 0.11.2"])
+      s.add_dependency(%q<mustache>, ["~> 0.13.0"])
       s.add_dependency(%q<coffee-script>, ["~> 2.1.2"])
       s.add_dependency(%q<rake>, [">= 0"])
       s.add_dependency(%q<jeweler>, [">= 0"])
@@ -145,7 +144,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<thor>, ["~> 0.14.0"])
     s.add_dependency(%q<jim>, ["~> 0.3.1"])
     s.add_dependency(%q<compass>, ["~> 0.10.5"])
-    s.add_dependency(%q<mustache>, ["~> 0.11.2"])
+    s.add_dependency(%q<mustache>, ["~> 0.13.0"])
     s.add_dependency(%q<coffee-script>, ["~> 2.1.2"])
     s.add_dependency(%q<rake>, [">= 0"])
     s.add_dependency(%q<jeweler>, [">= 0"])

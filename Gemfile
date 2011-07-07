@@ -7,7 +7,7 @@ gem 'typhoeus', '~>0.2'
 gem 'thor', '~>0.14.0'
 gem 'jim', '~>0.3.1'
 gem 'compass', '~>0.10.5'
-gem 'mustache', '~>0.11.2'
+gem 'mustache', '~>0.13.0'
 gem 'coffee-script', '~> 2.1.2'
 group :development do
     gem 'rake'
