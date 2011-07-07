@@ -98,7 +98,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<thor>, ["~> 0.14.0"])
       s.add_runtime_dependency(%q<jim>, ["~> 0.3.1"])
       s.add_runtime_dependency(%q<compass>, ["~> 0.10.5"])
-      s.add_runtime_dependency(%q<mustache>, ["~> 0.11.2"])
+      s.add_runtime_dependency(%q<mustache>, ["~> 0.13.0"])
       s.add_runtime_dependency(%q<coffee-script>, ["~> 2.1.2"])
       s.add_development_dependency(%q<rake>, [">= 0"])
       s.add_development_dependency(%q<jeweler>, [">= 0"])
